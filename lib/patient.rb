@@ -30,7 +30,9 @@ class Patient
   end
   
   def doctors
-    apointments.
+    apointments.collect do |app|
+      app.doctor
+    end
   end
   
 end
