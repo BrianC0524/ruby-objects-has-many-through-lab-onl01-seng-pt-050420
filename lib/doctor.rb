@@ -30,7 +30,7 @@ class Doctor
   end
 
   def patients
-    new_appointment.collect do |app|
+    appointments.collect do |app|
       app.patient
     end
   end
