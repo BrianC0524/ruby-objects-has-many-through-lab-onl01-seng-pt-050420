@@ -29,7 +29,7 @@ class Artist
   def songs
     puts Song.all
     Song.all.select do |song|
-      puts song
+      puts song.artist
       song.artist.name == self.name
       
     end
