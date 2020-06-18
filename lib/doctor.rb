@@ -25,12 +25,10 @@ class Doctor
   
   def appointments
     Appointment.all.select do |app|
-      
       app.doctor == self
-      
     end
   end
-  
+
   def patients
     new_appointment.collect do |app|
       app.patient
