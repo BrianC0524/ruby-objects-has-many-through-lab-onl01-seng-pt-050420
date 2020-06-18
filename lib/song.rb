@@ -8,7 +8,7 @@ class Song
   def initialize(name, artist, genre)
     
     @name = name
-    self.save
+    save
     
   end
   
