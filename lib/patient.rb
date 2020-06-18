@@ -29,4 +29,8 @@ class Patient
     end
   end
   
+  def doctors
+    apointments.
+  end
+  
 end
