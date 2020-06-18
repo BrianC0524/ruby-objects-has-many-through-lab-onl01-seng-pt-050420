@@ -24,7 +24,7 @@ class Patient
   end
   
   def appointments
-    
+    new_appointment
   end
   
 end
